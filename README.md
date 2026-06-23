@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004127-blue)](https://doi.org/10.82901/nemar.on004127)
+
 Project Title: DISC Validation in Rat Somatosensory Cortex
 Project ID: 000
 
