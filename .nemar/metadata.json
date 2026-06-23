@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Somatosensory Cortex Rat DISC Data",
+  "description": "This dataset contains electrophysiological recordings from implanted DISC (Distributed Intracortical Microelectrode Arrays) in rat somatosensory cortex during whisker stimulation. Anesthetized rats received air puffer stimulation to individual whiskers while neural activity was recorded. The dataset validates DISC technology for intracortical neural recording in rodent models.",
+  "methods_description": "DISC microelectrode arrays were implanted in rat somatosensory cortex. During anesthesia, whisker stimulation was delivered using an air puffer, with task identifiers corresponding to the stimulated whisker.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,46 +13,6 @@
       "orcid": "0000-0002-3783-7838"
     }
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004127.v3.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004127",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004127",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1101/2021.09.20.460996",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "ieeg"
-  ],
-  "resource_type_specific": "iEEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".json",
-    ".mat",
-    ".md",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "This dataset contains electrophysiological recordings from distributed intracortical silicon electrodes (DISC) implanted in rat somatosensory cortex during whisker stimulation. Anesthetized rats received air puff stimulation to individual whiskers while neural activity was recorded.",
-  "methods_description": "DISC microelectrode arrays were surgically implanted in rat somatosensory cortex. During anesthesia, whisker stimulation was delivered using an air puffer, with task identifiers corresponding to the stimulated whisker.",
   "keywords": [
     {
       "term": "electrophysiology"
@@ -68,23 +30,50 @@
       "term": "microelectrode arrays"
     },
     {
-      "term": "rat"
-    },
-    {
-      "term": "DISC"
-    },
-    {
-      "term": "anesthesia"
-    },
-    {
-      "term": "animal model"
-    },
-    {
       "term": "rodent"
     },
     {
-      "term": "neural recording"
+      "term": "DISC"
     }
   ],
-  "source_hash": "bfffbadcc2ce293488d336193a14501ca979c70437e56ed14224d27ab09fa7fd"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on004127",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004127",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2021.09.20.460996",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004127.v3.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "sizes": [
+    "201.4 GB (221 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "286b692fedb171fdf6a7c4fd1ee6f4b7602d23eefac958d5da41b560f9d55940"
 }
