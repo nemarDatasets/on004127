@@ -1,0 +1,29 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004127",
+  "source": "openneuro",
+  "source_id": "ds004127",
+  "title": "Somatosensory Cortex Rat DISC Data",
+  "authors": {
+    "Amada Abrego": {},
+    "Wasif Khan": {},
+    "John P Seymour": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004127.v3.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.1.1",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ]
+}
