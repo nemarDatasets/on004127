@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Somatosensory Cortex Rat DISC Data",
-  "description": "This dataset contains electrophysiological recordings from implanted DISC (Distributed Intracortical Microelectrode Arrays) in rat somatosensory cortex during whisker stimulation. Anesthetized rats received air puffer stimulation to individual whiskers while neural activity was recorded. The dataset validates DISC technology for intracortical neural recording in rodent models.",
-  "methods_description": "DISC microelectrode arrays were implanted in rat somatosensory cortex. During anesthesia, whisker stimulation was delivered using an air puffer, with task identifiers corresponding to the stimulated whisker.",
+  "description": "This dataset contains electrophysiological recordings from rat somatosensory cortex using DISC (Distributed Intracortical Silicon Electrodes) microelectrode arrays during whisker stimulation. Anesthetized rats received air puffer stimulation to individual whiskers while neural activity was recorded, providing validation data for DISC technology in primary sensory cortex.",
+  "methods_description": "DISC microelectrode arrays were implanted in rat somatosensory cortex. During anesthesia, whisker stimulation was delivered using an air puffer, with task identifiers corresponding to the specific whisker being stimulated.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,7 +18,7 @@
       "term": "electrophysiology"
     },
     {
-      "term": "intracortical recording"
+      "term": "microelectrode arrays"
     },
     {
       "term": "somatosensory cortex"
@@ -27,13 +27,10 @@
       "term": "whisker stimulation"
     },
     {
-      "term": "microelectrode arrays"
+      "term": "rat"
     },
     {
-      "term": "rodent"
-    },
-    {
-      "term": "DISC"
+      "term": "intracortical recording"
     }
   ],
   "related_identifiers": [
@@ -71,6 +68,7 @@
     ".json",
     ".mat",
     ".md",
+    ".tsv",
     ".vhdr",
     ".vmrk",
     ".yml"
