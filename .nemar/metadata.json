@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Somatosensory Cortex Rat DISC Data",
-  "description": "This dataset contains electrophysiological recordings from rat somatosensory cortex obtained using DISC (Diamond-based Implantable Sensing probes/electrodes) for validation purposes. Anesthetized rats received whisker stimulation via an air puffer, with task labels corresponding to the specific whisker stimulated. The dataset supports validation of DISC neural recording technology in a rodent somatosensory model.",
-  "methods_description": "Rats were implanted with DISC devices in somatosensory cortex. While anesthetized, individual whiskers were stimulated using an air puffer, with task names corresponding to the identity of the stimulated whisker.",
+  "description": "Intracranial recordings from rat somatosensory cortex using the DISC (Directional and Scalable depth array) electrode array. Recordings were acquired under anesthesia while individual whiskers were stimulated with an air puffer, with each task name corresponding to the identity of the stimulated whisker. The dataset supports validation of the DISC array for sensing local field potentials.",
+  "methods_description": "DISC electrode arrays were implanted in rat somatosensory cortex. While the animals were anesthetized, whiskers were stimulated with an air puffer, and the task name encodes the id of the stimulated whisker.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,21 +15,22 @@
   },
   "keywords": [
     {
-      "term": "Somatosensory Cortex",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013003"
+      "term": "iEEG"
     },
     {
-      "term": "electrophysiology"
+      "term": "local field potentials"
     },
     {
-      "term": "rat model"
+      "term": "somatosensory cortex"
+    },
+    {
+      "term": "rat"
     },
     {
       "term": "whisker stimulation"
     },
     {
-      "term": "neural probe validation"
+      "term": "depth electrode array"
     }
   ],
   "related_identifiers": [
@@ -60,7 +61,7 @@
     "ieeg"
   ],
   "sizes": [
-    "201.4 GB (221 files)"
+    "188 GB (221 files)"
   ],
   "formats": [
     ".eeg",
